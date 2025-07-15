@@ -1,7 +1,7 @@
 import { UserInfo } from '../UserInfo/UserInfo';
 
 // Add the required props
-function getTodoInfo(todo) {
+function TodoInformation(todo) {
   let articleClassName;
   // const userEmail = `mailto:${user.email}`;
 
@@ -19,4 +19,4 @@ function getTodoInfo(todo) {
   );
 }
 
-export const TodoInfo = ({ todo }) => getTodoInfo(todo);
+export const TodoInfo = ({ todo }) => TodoInformation(todo);

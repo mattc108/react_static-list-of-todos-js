@@ -1,5 +1,5 @@
 // Add the required props
-function getUserInfo(user) {
+function UserInformation(user) {
   const userEmail = `mailto:${user.email}`;
 
   return (
@@ -9,4 +9,4 @@ function getUserInfo(user) {
   );
 }
 
-export const UserInfo = ({ user }) => getUserInfo(user);
+export const UserInfo = ({ user }) => UserInformation(user);
